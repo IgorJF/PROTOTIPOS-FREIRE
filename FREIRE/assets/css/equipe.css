@@ -1,0 +1,90 @@
+#main {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.equipe {
+    background-color: #313131;
+    padding: 33px 0 0 0;
+    text-align: center;
+}
+
+.equipe h5 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(198, 140, 23);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.equipe-container {
+    padding: 0 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.linha1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.linha2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.linha3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.dentista-card {
+    display: flex;
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 25%;
+    margin-left: 15px;
+}
+
+.dentista-foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px 0 0 10px; 
+    overflow: hidden;
+}
+
+.dentista-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dentista-info {
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.dentista-nome {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.dentista-especialidade {
+    color: #afafaf;
+    margin-bottom: 10px;
+}
+
+.dentista-cro {
+    font-style: italic;
+    color: #8d8d8d;
+}
+

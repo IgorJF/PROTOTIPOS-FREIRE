@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+@font-face {
+    font-family: Myfont;
+    src: url(../fonts/Mynewfont-Regular.ttf);
+}
+
+
+#logo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 30px; 
+    width: 250px;
+    height: 90px;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+    padding: 10px 0;
+    height: 12%;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+#nav ul li {
+    display: inline-block; 
+    margin-right: 20px;
+    position: relative; 
+}
+
+#nav ul li a {
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav ul li a:hover {
+    color: #FFA500;
+}
+
+#nav ul li:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px); 
+    left: 0;
+    background-color: #333;
+    min-width: 250px;
+    z-index: 1;
+    text-align: left;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transition-delay: 0.2s; 
+}
+
+.submenu-open {
+    display: block !important;
+}
+
+.submenu-close {
+    display: none !important;
+}
+
+#nav .submenu li {
+    display: block;
+    text-align: left; 
+    margin-left: 10px;
+}
+
+#nav .submenu li a {
+    color: white;
+    padding: 8px 10px 10px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+#nav .submenu li a:hover {
+    background-color: #555;
+}
+
+#nav ul li:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#nav ul li.active a {
+    color: #FFA500; 
+    position: relative; 
+}
+
+#nav ul li.active a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px; 
+    background-color: #FFA500;
+    left: 0;
+    margin-top: 61px;
+}
+
+.active{
+    color: #FFA500;
+}
+
+.social-icons{
+    display: flex;
+    margin-left: 1330px;
+    position: relative;
+    bottom: 30px;
+    font-size: 28px;
+}
+
+    .social-icons a{
+        color: #A37E3E;
+        margin: 7px;
+    }
+        .social-icons a:hover{
+            color: #7A6339;
+        }

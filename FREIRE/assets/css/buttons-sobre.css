@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+@font-face {
+    font-family: Myfont;
+    src: url(../fonts/Mynewfont-Regular.ttf);
+}
+
+.elements-marataizes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: rgb(113, 113, 113);
+}
+
+.elements-marataizes h5{
+    margin-top: 20px;
+}
+
+.marataizes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px 0 0;
+}
+
+.elements-campos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: rgb(113, 113, 113);
+}
+
+.elements-campos h5{
+    margin-top: 20px;
+}
+
+.campos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.contato .informacao-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.contato-whatsapp {
+    background-color: rgb(198, 140, 23);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1px 5px 1px 5px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.contato-whatsapp:hover {
+    background-color: rgb(109, 76, 9);
+}
+
+.contato-whatsapp a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contato-campos {
+    background-color: rgb(198, 140, 23);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1px 5px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.contato-campos:hover {
+    background-color: rgb(109, 76, 9);
+}
+
+.contato-campos a {
+    text-decoration: none;
+    color: #fff;
+}

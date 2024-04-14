@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Martian+Mono:wdth,wght@75,700&display=swap');
+
+@font-face {
+    font-family: Brighten;
+    src: url(../fonts/Brighten-BF65893ece14b64.otf);
+}
+
+
+.banner {
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 40px);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 90px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Brighten";
+}
+
+.banner p {
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#main {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.sobre {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sobre-container {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    flex: 1;
+    max-width: 30%;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.texto h5 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(198, 140, 23);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.texto p {
+    padding: 5px 0 5px 0;
+    color: rgb(113, 113, 113);
+    font-size: 16px;
+}
+
+.imagens {
+    flex: 1;
+}
+
+
+.sobre h3 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+.services {
+    background: rgb(198, 140, 23);
+    background: radial-gradient(circle, rgba(198, 140, 23, 1) 0%, rgba(139, 97, 11, 1) 100%);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h3 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.services li {
+    color: white;
+}
+
+.contato {
+    background: rgb(44, 44, 45);
+    background: radial-gradient(circle, rgba(44, 44, 45, 1) 0%, rgba(18, 18, 19, 1) 100%);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contato h3 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.contato p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.elementphrase {
+    margin-top: 40px;
+    color: rgb(215, 215, 215);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

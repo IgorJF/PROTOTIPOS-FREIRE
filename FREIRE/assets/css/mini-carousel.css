@@ -1,0 +1,52 @@
+.mini-carousel {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 150px;
+    object-fit: cover;
+    margin-right: 10px; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-text {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.carousel-text h6 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.carousel-text p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.carousel-dots-mini {
+    text-align: center;
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+.carousel-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-dot.active {
+    background-color: #333;
+}
+

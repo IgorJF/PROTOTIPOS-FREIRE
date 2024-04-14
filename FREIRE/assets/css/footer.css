@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+@font-face {
+    font-family: Myfont;
+    src: url(../fonts/Mynewfont-Regular.ttf);
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed; 
+    bottom: 0; 
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}

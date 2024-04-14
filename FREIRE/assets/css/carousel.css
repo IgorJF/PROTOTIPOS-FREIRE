@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+@font-face {
+    font-family: Myfont;
+    src: url(../fonts/Mynewfont-Regular.ttf);
+}
+
+
+.services {
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; /
+}
+
+.img-services {
+    margin-right: 20px; 
+}
+
+#serviceList {
+    list-style: none;
+    padding: 0 50px 0 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+#serviceList li {
+    padding: 7px;
+    cursor: pointer;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 400px; 
+    max-height: 250px; 
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover; 
+}
+
+.carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+    bottom: 10px;
+    margin-left: 320px;
+}
+
+.carousel-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-dot.active {
+    background-color: #835500;
+}
+
+.ativo {
+    background-color: #835500;
+    border-radius: 5px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Formulário de Informações</h2>
+    <form id="form" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="situacao">Situação:</label>
+        <input type="text" id="situacao" name="situacao"><br><br>
+
+        <label for="prova">Prova:</label>
+        <input type="text" id="prova" name="prova"><br><br>
+
+        <label for="coloracao">Coloração:</label>
+        <input type="text" id="coloracao" name="coloracao"><br><br>
+
+        <label for="dente">Dente:</label>
+        <input type="text" id="dente" name="dente"><br><br>
+
+        <label for="descricao_geral">Descrição Geral:</label><br>
+        <textarea id="descricao_geral" name="descricao_geral" rows="4" cols="50"></textarea><br><br>
+
+        <label for="descricao_superior">Descrição sobre Arcada Superior:</label><br>
+        <textarea id="descricao_superior" name="descricao_superior" rows="4" cols="50"></textarea><br><br>
+
+
+        <label for="enviado">Enviado:</label>
+        <input type="text" id="enviado" name="enviado"><br><br>
+
+        <label for="recebido">Recebido:</label>
+        <input type="text" id="recebido" name="recebido"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Dados Enviados</h2>
+    <table id="tabela">
+        <tr>
+            <th>Nome</th>
+            <th>Situação</th>
+            <th>Prova</th>
+            <th>Coloração</th>
+            <th>Dente</th>
+            <th>Descrição Geral</th>
+            <th>Descrição Superior</th>
+            <th>Enviado</th>
+            <th>Recebido</th>
+        </tr>
+    </table>
+
+    <script>
+        document.getElementById("form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            var formData = new FormData(event.target);
+            var tableRow = "<tr>";
+            formData.forEach(function(value) {
+                tableRow += "<td>" + value + "</td>";
+            });
+            tableRow += "</tr>";
+            document.getElementById("tabela").innerHTML += tableRow;
+            event.target.reset();
+        });
+    </script>
+</body>
+</html>

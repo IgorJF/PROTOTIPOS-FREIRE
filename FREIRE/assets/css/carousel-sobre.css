@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+@font-face {
+    font-family: Myfont;
+    src: url(../fonts/Mynewfont-Regular.ttf);
+}
+
+
+.carousel-container-sobre {
+    position: relative;
+    max-width: 400px; 
+    max-height: 250px; 
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.carousel-sobre {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-sobre img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover; 
+}
+
+.carousel-dots-sobre {
+    text-align: center;
+    margin-top: -75px;
+    margin-left: 465px;
+    margin-bottom: 100px;
+}
+
+.carousel-dot-sobre {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-dot-sobre.active {
+    background-color: #835500;
+}

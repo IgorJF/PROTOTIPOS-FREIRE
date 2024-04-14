@@ -1,0 +1,17 @@
+.contato {
+    background: rgb(44, 44, 45);
+    background: radial-gradient(circle, rgba(44, 44, 45, 1) 0%, rgba(18, 18, 19, 1) 100%);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contato h3 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.contato p {
+    color: #fff;
+}
