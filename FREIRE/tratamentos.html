@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freire Odontologia</title>
+    <link rel="stylesheet" href="assets/css/mini-carousel.css">
+    <link rel="stylesheet" href="assets/css/sobre.css">
     <link rel="stylesheet" href="assets/css/nav.css">
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/equipe.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/icons.css">
     <link rel="stylesheet" href="assets/css/buttons-sobre.css">
     <link rel="stylesheet" href="assets/css/contato-flex.css">
     <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/tratamentos.css">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.7.2/css/all.css">
 </head>
 
@@ -26,9 +28,9 @@
                 <ul>
                     <li><a href="index.html">Início</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li class="active"><a class="supermenu" href="equipe.html">Equipe</a></li>
-                    <li onmouseenter="openSubmenu(this)" onmouseleave="closeSubmenu(this)">
-                        <a href="tratamentos.html">Tratamentos</a>
+                    <li><a href="equipe.html">Equipe</a></li>
+                    <li class="active" onmouseenter="openSubmenu(this)" onmouseleave="closeSubmenu(this)">
+                        <a href="tratamentos.html" class="supermenu">Tratamentos</a>
                         <ul class="submenu">
                             <li><a href="#">Implante Dentário</a></li>
                             <li><a href="#">Prótese Total Fixa</a></li>
@@ -40,7 +42,7 @@
                         </ul>
                     </li>
                     <li onmouseenter="openSubmenu(this)" onmouseleave="closeSubmenu(this)">
-                        <a href="">Diferenciais</a>
+                        <a href="diferenciais.html">Diferenciais</a>
                         <ul class="submenu">
                             <li><a href="#">Check-Up Odontológico</a></li>
                             <li><a href="#">Harmonização Facial</a></li>
@@ -67,44 +69,74 @@
         <!-- Main  -->
         <section id="main">
             <div class="divs">
-                <!-- Equipe -->
-                <article class="equipe">
-                    <!-- <h5 class="title">Conheça nosso time de profissionais:</h5> -->
-                    <div class="equipe-container">
-                        <div class="dentista">
-                            <img src="assets/img/consultorio.jpg" alt="Dentista 1">
-                            <div class="info">
-                                <h4>Dr. João Silva</h4>
-                                <p>Especialidade: Ortodontia</p>
-                                <p>CRO: 12345</p>
+                <!--Tratamentos -->
+                <article class="tratamentos">
+                    <div class="tratamentos-container">
+                        <div class="tratamentos-container">
+                            <div class="tratamento-card">
+                                <div class="tratamento-content">
+                                    <img src="assets/img/dente.jpg" alt="Imagem 1">
+                                    <div class="info-tratamento">
+                                        <h3>Implante Dentário</h3>
+                                        <p>Descrição do tratamento...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tratamento-card">
+                                <div class="tratamento-content">
+                                    <img src="assets/img/protese.jpg" alt="Imagem 2">
+                                    <div class="info-tratamento">
+                                        <h3>Prótese Total Fixa</h3>
+                                        <p>Descrição do tratamento...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tratamento-card">
+                                <div class="tratamento-content">
+                                    <img src="assets/img/estetica.jpg" alt="Imagem 1">
+                                    <div class="info-tratamento">
+                                        <h3>Estética Dental</h3>
+                                        <p>Descrição do tratamento...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tratamento-card">
+                                <div class="tratamento-content">
+                                    <img src="assets/img/lente.jpg" alt="Imagem 2">
+                                    <div class="info-tratamento">
+                                        <h3>Lente de Contato Dental</h3>
+                                        <p>Descrição do tratamento...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tratamento-card">
+                                <div class="tratamento-content">
+                                    <img src="assets/img/oral.jpg" alt="Imagem 1">
+                                    <div>
+                                        <h3>Cirurgia Oral</h3>
+                                        <p>Descrição do tratamento...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tratamento-card">
+                                <div class="tratamento-content">
+                                    <img src="assets/img/periodontia.jpg" alt="Imagem 2">
+                                    <div class="info-tratamento">
+                                        <h3>Periodontia</h3>
+                                        <p>Descrição do tratamento...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tratamento-card">
+                                <div class="tratamento-content">
+                                    <img src="assets/img/tratamento.jpeg" alt="Imagem 1">
+                                    <div class="info-tratamento">
+                                        <h3>Tratamento de Canal</h3>
+                                        <p>Descrição do tratamento...</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="dentista">
-                            <img src="assets/img/consultorio2.jpg" alt="Dentista 2">
-                            <div class="info">
-                                <h4>Dra. Maria Souza</h4>
-                                <p>Especialidade: Endodontia</p>
-                                <p>CRO: 67890</p>
-                            </div>
-                        </div>
-                        <div class="dentista">
-                            <img src="assets/img/consultorio3.jpg" alt="Dentista 1">
-                            <div class="info">
-                                <h4>Dr. João Silva</h4>
-                                <p>Especialidade: Ortodontia</p>
-                                <p>CRO: 12345</p>
-                            </div>
-                        </div>
-                        <div class="dentista">
-                            <img src="assets/img/consultorio4.jpg" alt="Dentista 2">
-                            <div class="info">
-                                <h4>Dra. Maria Souza</h4>
-                                <p>Especialidade: Endodontia</p>
-                                <p>CRO: 67890</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </article>
                 <!-- Contato -->
                 <article class="contato">
@@ -168,7 +200,9 @@
         &copy; Freire Odontologia | 2024
     </footer>
 
+    <script src="assets/js/display.js"></script>
     <script src="assets/js/submenu.js"></script>
+    <script src="assets/js/mini-carousel.js"></script>
 </body>
 
 </html>
