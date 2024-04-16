@@ -1,0 +1,33 @@
+Compras
+Empresas que mais atrasam
+Qtd de vezes de cada empresa
+Qualidade
+Valor Total em Cada mês
+Compra
+Valor Total ate esse periodo
+Numero de compras feitas
+NUmero de material em estoque
+
+Proteses
+Numero de Proteses feitas
+Numeros de proteses por doutor
+Numero de trabalhos
+protetico por protese
+Entrega das proteses por protetico
+
+Colaboradores
+Qtd em salario
+Qtd em beneficio
+Pesquisa por colaborador
+Area por idade
+Informação por colaborador
+Cargo por idade
+Por genero
+Demissoes por contratacoes
+
+Contratos
+Contratos por idade
+Por mes
+Qauntidade
+Valores
+Dr por paciente

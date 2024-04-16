@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 #main {
     padding-top: 70px;
     padding-bottom: 50px;
@@ -5,86 +9,53 @@
 
 .equipe {
     background-color: #313131;
-    padding: 33px 0 0 0;
+    padding: 31px 0 0 0;
     text-align: center;
-}
-
-.equipe h5 {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: rgb(198, 140, 23);
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 .equipe-container {
-    padding: 0 0 10px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 0; 
+}
+
+.dentista {
+    position: relative;
+}
+
+.dentista img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover; 
+}
+
+.dentista .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 332px;
+    height: 510px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    padding: 20px; 
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0; 
+    transition: opacity 0.3s ease;
 }
 
-.linha1 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.dentista:hover .info {
+    opacity: 1; 
 }
 
-.linha2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.linha3 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.dentista-card {
-    display: flex;
-    background-color: rgb(80, 80, 80);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    width: 25%;
-    margin-left: 15px;
-}
-
-.dentista-foto {
-    width: 120px;
-    height: 120px;
-    border-radius: 10px 0 0 10px; 
-    overflow: hidden;
-}
-
-.dentista-foto img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.dentista-info {
-    padding: 15px;
-    margin-left: 20px;
-}
-
-.dentista-nome {
-    font-size: 18px;
-    margin-bottom: 5px;
-    color: white;
-}
-
-.dentista-especialidade {
-    color: #afafaf;
+.dentista .info h4 {
     margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
-.dentista-cro {
-    font-style: italic;
-    color: #8d8d8d;
+.dentista .info p {
+    margin: 0;
+    font-size: 1em;
 }
-
