@@ -30,8 +30,8 @@ function webScrapingToGoogleSheets() {
       var data_protocolo = getValueFromHTML(itemHTML, "data-protocol");
       var protocolo = getValueFromHTML(itemHTML, "protocolo");
       var paciente = getValueFromHTML(itemHTML, "paciente");
-      var trabalhoOriginal = getValueFromHTML(itemHTML, "trabalho"); // Obtenha o texto original
-      var trabalho = getTrabalhoCorrigido(trabalhoOriginal); // Obtenha o valor corrigido
+      var trabalhoOriginal = getValueFromHTML(itemHTML, "trabalho"); 
+      var trabalho = getTrabalhoCorrigido(trabalhoOriginal); 
       var arcada = getValueFromHTML(itemHTML, "arcada");
       var descricao = getValueFromHTML(itemHTML, "descricao");
       var dentista = getValueFromHTML(itemHTML, "dentista");
