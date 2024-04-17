@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import time
 
-navegador = webdriver.Chrome()
+navegador = webdriver.Firefox()
 navegador.get("https://web.whatsapp.com")
 
 while True:

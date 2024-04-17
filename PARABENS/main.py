@@ -6,7 +6,7 @@ import os
 import time
 import pyautogui
 
-workbook = openpyxl.load_workbook('pacientes_aniversario.xlsx')
+workbook = openpyxl.load_workbook('PARABENS/pacientes_aniversario.xlsx')
 sheet = workbook.active
 
 data_atual = datetime.now().date().strftime("%d-%m")
@@ -21,15 +21,17 @@ for row in sheet.iter_rows(min_row=2, values_only=True):
 
         Numero = str(Numero)
         Numero_limpo = ''.join(filter(str.isdigit, Numero))
-        
-        link_whatsapp = f"https://web.whatsapp.com/send?phone={Numero_limpo}&text={quote(mensagem)}"
-        webbrowser.open(link_whatsapp)
-        time.sleep(5) 
-
-        pyautogui.click(804,736)  
-        time.sleep(1)
-        pyautogui.press("enter")
-        time.sleep(5) 
-
+        try: 
+            link_whatsapp = f"https://web.whatsapp.com/send?phone={Numero_limpo}&text={quote(mensagem)}"
+            webbrowser.open(link_whatsapp)
+            time.sleep(10) 
+            pyautogui.press("enter")
+            # img = pyautogui.locateCenterOnScreen("PARABENS/seta.png")
+            # pyautogui.click(img.x,img.y)
+            time.sleep(2)
+            pyautogui.hotkey('ctrl','w')
+            time.sleep(2)
+        except:
+           print(f'Não foi possível enviar mensagem para {Nome}')
 workbook.close()
 

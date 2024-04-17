@@ -13,15 +13,12 @@
 
 .tratamentos-container {
     display: flex;
-    flex-direction: column;
 }
 
 .tratamento-card {
     overflow: hidden;
     position: relative;
     display: flex;
-    flex-direction: row;
-    text-align: left;
 }
 
 .tratamento-content img {
@@ -37,8 +34,6 @@
 }
 
 .tratamento-content h3 {
-    margin-left: 20px;
-    justify-content: left;
     color: #FFA500;
     padding: 7px 7px 7px 7px;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
