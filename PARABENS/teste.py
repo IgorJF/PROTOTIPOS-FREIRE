@@ -61,7 +61,6 @@ from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-# Inicializa o WebDriver do Chrome
 driver = webdriver.Firefox()
 
 workbook = openpyxl.load_workbook('PARABENS/pacientes_aniversario.xlsx')
