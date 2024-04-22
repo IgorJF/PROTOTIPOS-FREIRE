@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+
+@font-face {
+    font-family: Myfont;
+    src: url(../fonts/Mynewfont-Regular.ttf);
+}
+
+.informacoes{
+    text-align: left;
+    justify-content: left;
+    padding: 20px 30px 0 0;
+}
+
+.informacoes p{
+    font-size: 11px;
+}
+
+    .destaque{
+        color:rgb(198, 140, 23) !important;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+    }
+
+.informacoes img {
+    width: 250px;
+    height: 150px;
+}
+
+.contato .form-contato {
+    width: 100%;
+    
+}
+
+.contato .informacao-container .informacoes {
+    margin-bottom: 20px;
+}
+
+.contato .informacao-container .informacoes img {
+    max-width: 100%;
+}
+
+.contato .informacao-container .informacoes p {
+    margin: 5px 0;
+}
+
+.form-contato {
+    width: 100%;
+    max-width: 400px; 
+}
+
+.form {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form input[type="text"],
+.form select,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+}
+
+.form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%231c1c1c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 20px auto;
+    padding-right: 30px;
+}
+
+.form textarea {
+    resize: vertical;
+}
+
+.button {
+    text-align: right;
+}
+
+.button input[type="submit"] {
+    background-color: rgb(198, 140, 23);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button input[type="submit"]:hover {
+    background-color: rgb(109, 76, 9);
+}
+
