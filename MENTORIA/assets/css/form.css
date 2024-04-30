@@ -1,0 +1,60 @@
+@font-face {
+    font-family: InterBlack;
+    src: url(../fonts/static/Inter-Black.ttf);
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(../fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url(../fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: InterLight;
+    src: url(../fonts/static/Inter-Light.ttf);
+}
+
+.form-mentoria {
+    width: 100%;
+    max-width: 400px; 
+    margin-left: 210px;
+}
+
+.form {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+}
+
+.button {
+    text-align: right;
+    justify-content: center;
+    text-align: center;
+}
+
+.button input[type="submit"] {
+    background-color: rgb(198, 140, 23);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "InterBold";
+}
+
+.button input[type="submit"]:hover {
+    background-color: rgb(109, 76, 9);
+}

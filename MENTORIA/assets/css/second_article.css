@@ -1,0 +1,48 @@
+@font-face {
+    font-family: InterBlack;
+    src: url(../fonts/static/Inter-Black.ttf);
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(../fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url(../fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: InterLight;
+    src: url(../fonts/static/Inter-Light.ttf);
+}
+
+.second-article {
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.benefits-text{
+    margin-top: 100px;
+}
+
+.benefits{
+    color: white;
+    font-family: "InterBlack";
+    font-size: 24px;
+}
+
+.benefits-list{
+    color: white;
+    font-family: "InterBold";
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.benefits-list h3{
+    margin-top: 20px;
+}

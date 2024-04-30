@@ -1,0 +1,84 @@
+@font-face {
+    font-family: InterBlack;
+    src: url(assets/fonts/static/Inter-Black.ttf);
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: InterLight;
+    src: url(assets/fonts/static/Inter-Light.ttf);
+}
+
+.sixth-article {
+    background: linear-gradient(#181818, #373737);
+    padding: 20px;
+}
+
+.company-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.social-media{
+    justify-content: center;
+    text-align: center;
+}
+
+.social-media i {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.social-media i:hover{
+    color: #DAA520;
+}
+
+.social-media p{
+    color: #DAA520;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "InterBold";
+}
+
+.title-contact {
+    color: #DAA520;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "InterBold"
+}
+
+.logo img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.contact-info {
+    justify-content: center;
+    text-align: center;
+}
+
+.content-contact{
+    margin-top: 10px;
+    color: white;
+    font-family: "InterLight";
+}
+
+.localization-info {
+    justify-content: center;
+    text-align: center;
+}

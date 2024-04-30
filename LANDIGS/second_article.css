@@ -1,0 +1,33 @@
+.second-article {
+    background: linear-gradient(#181818, #373737);
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.card-content {
+    margin-top: 50px;
+}
+
+.card img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #DAA520;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
